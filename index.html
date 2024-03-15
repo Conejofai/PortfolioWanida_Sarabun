@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<style>
+  
+  img {
+      width: 100px; 
+      height: auto;
+  }
+</style>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./images/1.JPG" alt="Wanida Sarabun" width="100px">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Wanida Sarabun">Wanida Sarabun</h1>
+
+          <p class="title">Student</p>
+        </div>
+<!--  ปุ่มเลื่อนเมนู  -->
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+<!--  e-mail  -->
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:sarabun2516@gmail.com" class="contact-link">sarabun2516@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+<!--  phone  -->
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+66910628648" class="contact-link">+6691-062-8648</a>
+            </div>
+
+          </li>
+<!--  Birthday  -->
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-12-19">Dec. 19, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tha Phra, Khon Kaen, Thailand</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+         <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+-->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            สวัสดีค่ะ ดิฉันนางสาววนิดา สารบุญ อายุ 22 ปี กำลังศึกษาอยู่มหาลัยวิทยาศรีปทุมวิทยาเขตขอนแก่น ชั้นปีที่ 3
+          </p>
+
+          <p>
+            จุดมุ่งหมายในการฝึกสหกิจครั้งนี้คือ การเรียนรู้จากประสบการณ์จริงการทำงานจริง พัฒนาทักษะต่างๆ สร้างแรงบันดาลใจในการทำงานและฝึกการทำงานรวมกันกับทีมได้ดี ตอนนี้มีประสบการณ์ยังไม่มากแต่พร้อมที่จะเรียนรู้เสมอค่ะ
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Studying</h4>
+
+                <p class="service-item-text">
+                  กำลังศึกษาอยู่มหาลัยวิทยาศรีปทุมวิทยาเขตขอนแก่น คณะเทคโนโลยีสารสนเทศ สาขาเทคโนโลยีมัลมีเดีย ชั้นปีที่ 3.
+                </p>
+                <a href="http://www.khonkaen.spu.ac.th/spu/"target="_blank">Sripatum University Khonkaen</a>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/icon-app.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Streamer</h4>
+
+                <p class="service-item-text">
+                  Live Streaming เกมในแพลตฟอร์มออนไลน์อย่าง twitch.
+                </p>
+                <a href="https://www.twitch.tv/failucy"target="_blank">My TwitcgTV</a>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Jam</h4>
+
+                <p class="service-item-text">
+                  เริ่มเข้าร่วมอีเว้นต์ Thailand Horror Jam 2023.
+                </p>
+                <a href="https://conejofai.itch.io/take-me-home"target="_blank">Take Me Home</a>
+              </div>
+
+            </li>
+
+            
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            
+
+            <li class="timeline-item">
+              
+              
+              <img src="./images/spu.png"alt="Image Description" >
+
+              <h4 class="h4 timeline-item-title">Sripatum University Khon Kaen</h4>
+
+              <span>2021 — Present</span>
+
+              <p class="timeline-text">กำลังศึกษาอยู่มหาลัยวิทยาศรีปทุมวิทยาเขตขอนแก่น คณะเทคโนโลยีสารสนเทศ สาขาเทคโนโลยีมัลมีเดีย ชั้นปีที่ 3
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <img src="./images/spk.png"alt="Image Description" >
+
+              <h4 class="h4 timeline-item-title">Sarakham Pittayakhom School</h4>
+
+              <span>2014 — 2020</span>
+
+              <p class="timeline-text">
+                ม.1 -ม.6 ศึกษาอยู่ห้องเรียนพิเศษวิทยาศาสตร์ คณิตศาสตร์ เทคโนโลยี และสิ่งแวดล้อม(Enrichment Program of Science, Mathematics, Technology and Environment : SMTE)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <img src="./images/kt.png"alt="Image Description" >
+
+              <h4 class="h4 timeline-item-title">Kitiya School</h4>
+
+              <span>2007 — 2014</span>
+
+              <p class="timeline-text">
+                ศึกษาตั้งแต่ชั้น อ.3-ป.6
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Drawing</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Procreate</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Adobe Illustrator</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Unity</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Maya</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn></button>
+            </li>
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            
+
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="Game">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/4.png" alt="arrival" loading="lazy">
+                  
+                </figure>
+
+                <h3 class="project-title">NSC</h3>
+
+                <p class="project-category">จัดทำเรื่อง การประยุกต์ใช้เทคโนโลยีเสมือนจริงเพื่อใช้ในการเรียนรู้เรื่องสัตว์มีพิษ เพื่อให้ผู้ใช้เกิดการเรียนรู้และป้องกันสัตว์มีพิษในรู้แบบเทคโนโลยีเสมือนจริง(AR) ผ่านเข้ารอบแรก</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Game">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/3.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Game Jam</h3>
+
+                <p class="project-category">การทำเกมตามธีมที่กำหนดและเลือกใช้ Limitation ที่กำหนดมาให้ ตามเวลาที่กำหนดซึ่งครั้งนี้ใช้เวลา 6 วัน ชื่อเกม Take Me Home พาน้องแกะมอนสเตอร์กลับบ้าน</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Animetion">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/5.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Animetion 2D</h3>
+
+                <p class="project-category">โลกของทามะโกะ เนื้อเรื่องเกี่ยวกับไข่ที่เห็นเพื่อนของเขาได้ถูกนำไปทำอาหารเขาคิดจะหนีไปแต่กลับใจเพราะเห็นเด็กชายทานไข่อย่างเอร็ดอร่อย เขาจึงอยากเป็นไข่ที่ทำให้คนที่กินเขามีความสุข</p>
+                
+                
+                <div class="contact-info">
+                  
+                  <a href="https://youtu.be/_ymmuCCmY1E=VIDEO_ID"  target="_blank">Watch Video on YouTube</a>
+                  
+                </div>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Animetion">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/7.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Game 2D</h3>
+
+                <p class="project-category">เป็นเกมที่นำเอาAnimetionมาต่อยอดเป็นทามะโกะที่หนีออกจากร้านอาหาร ต้องหลบสิ่งกีดขวางต่างๆจนไปถึงทางออก</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Game">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/11.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Activities</h3>
+
+                <p class="project-category">การทำโครงการภายในมหาวิทยาลัยตามรายวิชา MMT122 สถิติและงานวิจัยด้านเทคโนโลยีมัลติมีเดียและMMT312 การบริหารโครงการด้านมัลติมีเดียและเกม การจัดกิจกรรมต่างๆเช่น การประกวดคอสเพลย์ การจัดบูท Random dance Free stage เป็นต้น</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art3.JPEG" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Character design</h3>
+
+                <p class="project-category">ออกแบบ Character จากอาหารขนม</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art1.JPG" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Character design</h3>
+
+                <p class="project-category">ออกแบบ Character จากปลากระเบนกับคน นำจุดเด่นมาออกแบบ</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art6.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Illustrator </h3>
+
+                <p class="project-category">วาดด้วยการ์ตูนด้วยเครื่องมือพื้นฐาน</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art7.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Illustrator </h3>
+
+                <p class="project-category">วาดอาหารด้วยโปรแกรม Illustrator</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art2.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Illustrator </h3>
+
+                <p class="project-category">วาดบุคคลด้วยโปรแกรม Illustrator</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art4.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Illustrator </h3>
+
+                <p class="project-category">วาดบุคคลด้วยโปรแกรม Illustrator</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                 
+
+                  <img src="./images/art8.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Illustrator </h3>
+
+                <p class="project-category">วาดการ์ตูนด้วยโปรแกรม Illustrator</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art10.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Illustrator </h3>
+
+                <p class="project-category">ออกแบบ Character สีหน้าและท่าทางต่างๆ</p>
+
+              </a>
+            </li>   
+
+            <li class="project-item  active" data-filter-item data-category="Maya">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/3d.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3D Maya</h3>
+
+                <p class="project-category">การปั้น Maya พื้นฐาน</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Maya">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/3d1.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3D Maya</h3>
+
+                <p class="project-category">ออกแบบ Character ด้วย Maya พื้นฐาน</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Maya">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/3d2.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">3D Maya</h3>
+
+                <p class="project-category">ออกแบบ Character ด้วย Maya พื้นฐาน</p>
+                <div class="contact-info">
+                  <a href="https://youtu.be/Q3eDlHBOPSw=VIDEO_ID"  target="_blank">Watch Video on YouTube</a>
+                </div>
+    
+              </li>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/12.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Art 2D</h3>
+
+                <p class="project-category">ลงแสงเงาพื้นฐาน</p>
+                <div class="contact-info">
+                  
+                </div>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+  
+                <figure class="project-img">
+                    
+  
+                  <img src="./images/15.jpg" alt="summary" loading="lazy">
+                </figure>
+  
+                <h3 class="project-title">Art 2D</h3>
+  
+                <p class="project-category">ลงแสงเงาพื้นฐาน</p>
+                <div class="contact-info">
+                    
+                </div>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/13.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Art 2D</h3>
+
+                <p class="project-category">งานลงแสงเงาพื้นฐาน</p>
+                <div class="contact-info">
+                  
+                </div>
+              </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="Art">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    
+  
+                    <img src="./images/14.jpg" alt="summary" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Art 2D</h3>
+  
+                  <p class="project-category">งานลงสีแสงเงาพื้นฐาน</p>
+                  <div class="contact-info">
+                    
+                  </div>
+                </a>
+                </li>
+                <li class="project-item  active" data-filter-item data-category="Art">
+                  <a href="#">
+    
+                    <figure class="project-img">
+                      
+    
+                      <img src="./images/16.jpg" alt="summary" loading="lazy">
+                    </figure>
+    
+                    <h3 class="project-title">Art 2D</h3>
+    
+                    <p class="project-category">งานลงสีแสงเงาพื้นฐาน</p>
+                    <div class="contact-info">
+                      
+                    </div>
+                  </a>
+                  </li>
+                  <li class="project-item  active" data-filter-item data-category="Art">
+                    <a href="#">
+      
+                      <figure class="project-img">
+                        
+      
+                        <img src="./images/17.jpg" alt="summary" loading="lazy">
+                      </figure>
+      
+                      <h3 class="project-title">Art 2D</h3>
+      
+                      <p class="project-category">งานเส้นต่างๆ</p>
+                      <div class="contact-info">
+                        
+                      </div>
+                    </a>
+                    </li>
+                    <li class="project-item  active" data-filter-item data-category="Art">
+                      <a href="#">
+        
+                        <figure class="project-img">
+                          
+        
+                          <img src="./images/18.jpg" alt="summary" loading="lazy">
+                        </figure>
+        
+                        <h3 class="project-title">Art 2D</h3>
+        
+                        <p class="project-category">งานภาพจุด</p>
+                        <div class="contact-info">
+                          
+                        </div>
+                      </a>
+                      </li>
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art5.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Photoshop</h3>
+
+                <p class="project-category">งานออกแบบ Photoshop</p>
+
+              </a>
+            </li>
+
+ 
+            <li class="project-item  active" data-filter-item data-category="Art">
+              <a href="#">
+
+                <figure class="project-img">
+                  
+
+                  <img src="./images/art9.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Photoshop</h3>
+
+                <p class="project-category">งานออกแบบ Photoshop</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d957.3769782173846!2d102.8026202696006!3d16.296971999026002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTbCsDE3JzQ5LjEiTiAxMDLCsDQ4JzExLjgiRQ!5e0!3m2!1sth!2sth!4v1700164075235!5m2!1sth!2sth" 
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </section>
+
+        
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
